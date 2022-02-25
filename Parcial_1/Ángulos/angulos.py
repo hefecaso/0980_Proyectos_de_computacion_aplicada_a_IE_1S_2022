@@ -10,9 +10,9 @@ connection =  psycopg2.connect(
 
 while True:
     try:
-        a1 = int(input("Ingrese el valor del primer angulo: "))
+        a1 = int(input("\nIngrese el valor del primer angulo: "))
         a2 = int(input("Ingrese el valor del segundo angulo "))
-        print("Que opción desea realizar: ")
+        print("\nQue opción desea realizar: ")
         op = str(input(""" Menú:
         1- Encontrar el tercer angulo
         2- Ver historial \n"""))
