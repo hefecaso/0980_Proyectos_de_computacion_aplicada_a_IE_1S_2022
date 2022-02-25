@@ -12,10 +12,14 @@ while True:
     try:
         a1 = int(input("\nIngrese el valor del primer angulo: "))
         a2 = int(input("Ingrese el valor del segundo angulo "))
-        print("\nQue opción desea realizar: ")
-        op = str(input(""" Menú:
-        1- Encontrar el tercer angulo
-        2- Ver historial \n"""))
+
+        print("\n================================")
+        print("\nMenú de opciones: ")
+        print("\n1. Encontrar el tercer ángulo")
+        print("2. Ver el historial")
+
+        op = input("\nIngrese su opción: ")
+        print("================================\n")
     except:
         print ("ERROR")
         op = '?'
@@ -34,7 +38,7 @@ while True:
     elif op == '2':
 
         cursor = connection.cursor()
-        SQL = 'select * from problema2p2;'
+        SQL = 'select * from angulos;'
         cursor.execute(SQL)
         valores = cursor.fetchall()
         print(valores)
