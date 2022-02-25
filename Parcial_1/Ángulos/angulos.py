@@ -3,7 +3,7 @@ import psycopg2
 connection =  psycopg2.connect(
     host="localhost",
     user="postgres",
-    password="contraseña",
+    password="123456",
     database="angulos",
     port="5432"
 )
@@ -16,7 +16,7 @@ while True:
         op = str(input(""" Menú:
         1- Encontrar el tercer angulo
         2- Ver historial \n"""))
-    except: 
+    except:
         print ("ERROR")
         op = '?'
 
