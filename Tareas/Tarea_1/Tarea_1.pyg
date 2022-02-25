@@ -1,0 +1,12 @@
+
+\documentclass{article}
+\usepackage{minted}
+\begin{document}
+
+%Para incertar el código utilizamos:
+
+\begin{minted}{matlab}
+x = 0:0.01:2*pi;
+y = sin(x);
+plot(x,y);
+
