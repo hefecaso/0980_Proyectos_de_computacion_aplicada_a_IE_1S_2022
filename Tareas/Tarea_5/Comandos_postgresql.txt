@@ -1,0 +1,16 @@
+sudo -u postgres psql
+\conninfo
+\l
+\d
+\c server
+select*from redes;
+delete from redes;
+
+delete from redes
+where nombre = 'Fer';
+
+create database name;
+
+create table name(
+columna1 varchar(30)
+);

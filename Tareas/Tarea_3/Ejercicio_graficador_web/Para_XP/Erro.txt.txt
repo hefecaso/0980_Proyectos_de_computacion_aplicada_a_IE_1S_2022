@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Graficador de Polinomios</title>
+</head>
+<body bgcolor="#FFFFFF">
+<div align="center"><u><b><font color="#000000" size="4" face="Arial">
+Graficador de </font><font face="Arial" size="4">Funciones</font></b></u></div>
+<p>Este es un graficador de funciones. Ud. puede graficar cualquier función.
+<p>Basta con introducir una función de &quot;x&quot; y después presionar el botón Graficar.
+La función tiene que cumplir con la sintaxis de Matlab.<p>Por ejemplo, 1+5x^2 se
+expresa como 1+5*realpow(x,2), 3sin(3x+1) se expresa como 3*sin(3*x+1), e^x se
+expresa como exp(x), etc.
+<p>&nbsp;<form action="/cgi-bin/matweb.exe" method="POST" target="outputwindow">
+<input type="hidden" name="mlmfile" value="graficatodo">
+<p>f(x)=
+<input type="text" size = "80" value="1+realpow(x,2)" name="fun"><br>
+Valor mínimo para eje x:
+<input type="text" size = "4" value="-10" name="min"><br>
+Valor máximo para eje x:
+<input type="text" size = "4" value="10" name="max"><br>
+<p><input type="submit" name="Submit" value="Graficar">
+</form>
+<p align="center"><font face="Arial" color="#0000FF" size="4">Universidad de San
+Carlos de Guatemala.</font></p>
+<p align="center"><font face="Arial" color="#0000FF" size="4">Facultad de
+Ingeniería.</font></p>
+<p align="center"><font face="Arial" color="#0000FF" size="4">Proyectos
+Computacionales Aplicados a Ingeniería Electrónica.</font></p>
+<p align="center"><font face="Arial" color="#0000FF" size="4">Catedrático: Ing.
+Aníbal Silva.</font></p>
+<p align="center"><font face="Arial" color="#0000FF" size="4">Julio de 2005.</font></p>
+<p align="center"><font face="Arial" size="2" color="#0000FF">1998-19555&nbsp;
+Juan Carlos Sánchez</font></p>
+<p align="center"><font face="Arial" size="2" color="#0000FF">2000-10973&nbsp;
+Javier Rivera</font></p><p align="center"><font face="Arial" size="2" color="#0000FF">2000-11252&nbsp;
+Carlos Rubio</font></p>
+</body>
+</html>
