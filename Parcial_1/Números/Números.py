@@ -9,11 +9,11 @@ connection =  psycopg2.connect(
 )
 
 
-print("10. Mostrar la unidad, la decena y centena. ")
+print("\nMostrar la unidad, la decena y centena.\n")
 
 while True:
     try:
-        num = int(input("Ingrese un numero comprendido entre 1 y 999: "))
+        num = int(input("\nIngrese un numero comprendido entre 1 y 999: "))
 
         print("\n================================")
         print("\nMenú de opciones: ")
