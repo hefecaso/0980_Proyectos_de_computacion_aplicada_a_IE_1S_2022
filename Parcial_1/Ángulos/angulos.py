@@ -25,7 +25,7 @@ while True:
         connection.autocommit = True
         def insertardatos(angulo1,angulo2,angulo3):
             cursor = connection.cursor()
-            query = f""" INSERT INTO problema2p2 (angulo1,angulo2, angulo3) values('{angulo1}','{angulo2}','{angulo3}')"""
+            query = f""" INSERT INTO angulos (angulo1,angulo2, angulo3) values('{angulo1}','{angulo2}','{angulo3}')"""
             cursor.execute(query)
             cursor.close()
         insertardatos(a1,a2,a3)
