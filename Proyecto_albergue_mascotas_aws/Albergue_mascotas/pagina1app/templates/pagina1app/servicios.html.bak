@@ -1,0 +1,69 @@
+<!-- Heredando de base -->
+
+<meta
+  http-equiv="content-type"
+  content="text/html; charset=windows-1252">
+</meta>
+
+{% extends "pagina1app/base.html" %} {% load static %} {% block content %}
+
+<header
+  style="background-color: white;"
+  <meta
+  http-equiv="content-type"
+  content="text/html; charset=windows-1252">
+  {% load crispy_forms_tags %}
+
+  <div class="row">
+    <div class="col-12 col-md-6 offset-md-3">
+      <br/>
+
+      <div style="text-align: center; background-color: #cccccc;">
+        Desgraciadamente, en Guatemala no hay leyes eficientes a favor de los animales. Tan solo en
+        la Ciudad de Guatemala, hay más de 3 millones de perros callejeros desprotegidos. Nuestra
+        sociedad no tiene una cultura suficiente de respeto hacia los animales. Milagros Caninos no
+        es la solución a este gran problema. Aunque quisieramos ayudar a todos los perros de
+        Guatemala, es imposible para nosotros, así como lo es para cualquier otra asociación o
+        albergue.
+        <br/>
+
+        <br/>
+
+        <b>
+          Debido a ello, nos hemos especializado en ayudar solamente a aquellos que se encuentran en
+          una condición extrema:
+        </b>
+
+        cáncer, ciegos, sordos y paralíticos, entre muchos otros casos que requieren una atención
+        específica. Adicionalmente, queremos fomentar la cultura hacia los animales a través de
+        nuestras Visitas Guiadas, libros y conferencias.
+        <br/>
+
+        <br/>
+
+        Si estás interesado en sumarte a nuestra causa, hay muchas maneras de hacerlo. Conoce todas
+        nuestras formas de ayuda:
+        <br/>
+
+        <br/>
+
+        Donativos con tarjeta de crédito/debito, y PayPal.
+      </div>
+      
+
+      <div style="text-align: center;"><br/></div>
+
+      <div style="text-align: center;">
+        <img
+          alt="{% static 'pagina1app/img/Imagen_mascotas_serivicios' %}"
+          src="{% static 'pagina1app/img/animales.jpg' %}"/>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 offset-md-3"><br/></div>
+  </div>
+
+  <table id="tablacontacto"></table>
+</header>
+
+{% endblock %}

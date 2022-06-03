@@ -1,0 +1,71 @@
+Creando login:
+
+https://www.youtube.com/watch?v=2DMcFLjRm3g
+
+=============================================================
+
+Creando registro:
+
+https://www.youtube.com/watch?v=CJOHJxNTT1g&ab_channel=moisessepulveda
+
+=============================================================
+
+Configurando postgres:
+
+https://www.youtube.com/watch?v=7QYU_izHF_4&t=150s&ab_channel=UskoKruM2010
+
+=============================================================
+
+Para formatear suquencia de registro en postgresql:
+
+If you created the table product with an id column, then the sequence is not simply called product, but rather product_id_seq (that is, ${table}_${column}_seq).
+
+This is the ALTER SEQUENCE command you need:
+
+ALTER SEQUENCE product_id_seq RESTART WITH 1453
+You can see the sequences in your database using the \ds command in psql. If you do \d product and look at the default constraint for your column, the nextval(...) call will specify the sequence name too.
+
+https://stackoverflow.com/questions/5342440/reset-auto-increment-counter-in-postgres
+
+https://www.youtube.com/watch?v=pZO9pm8kuPs&ab_channel=jcmontoya
+
+=============================================================
+
+Importar y exportas bases de datos de postgres:
+
+https://platzi.com/tutoriales/1480-postgresql/2252-como-generar-una-backup-de-postgresql-y-como-restaurarla/
+
+pg_dump -U postgres -W -h 127.0.0.1 puppy_heroe > Descargas/puppy_heroe.PSQL
+pg_dump -U postgres -W -h 127.0.0.1 puppy_heroe < Descargas/puppy_heroe.PSQL
+=============================================================
+
+Tipos de campos en models!
+
+https://developer.mozilla.org/es/docs/Learn/Server-side/Django/Models
+
+https://docs.djangoproject.com/en/1.10/ref/models/fields/#field-types
+
+
+=============================================================
+
+Pasos para crear un nuevo formulario:
+
+1. models.py
+2. python manage.py makemigrations
+3. python manage.py migrate
+4. registramos en admin.py
+5. forms.py
+6. views.py
+7. archivo.html
+
+=============================================================
+
+Configurando restablecer contraseña
+Video: https://www.youtube.com/watch?v=sFPcd6myZrY&ab_channel=DennisIvy
+Documentación actualizada: https://docs.djangoproject.com/en/4.0/topics/auth/default/
+
+=============================================================
+
+Importar y exportar base de datos a otros archivos
+
+https://www.youtube.com/watch?v=1iLJAMBHi7A&ab_channel=Cairocoders

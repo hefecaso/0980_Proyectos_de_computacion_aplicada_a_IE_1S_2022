@@ -1,0 +1,54 @@
+<!-- Heredando de base -->
+
+{% extends "pagina1app/base.html" %}  {% load static %}  {% block content %}
+
+<!-- Heading -->
+
+<section class="page-section clearfix">
+  <div class="container">
+    <div class="intro">
+      <img
+        class="intro-img img-fluid mb-3 mb-lg-0 rounded"
+        alt
+        src="{% static 'pagina1app/img/perro.jpg' %}"/>
+      <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+        <h2 class="section-heading mb-4">
+          <span class="section-heading-upper">¿Quienes</span>
+
+          <span class="section-heading-lower">somos?</span>
+        </h2>
+
+        <p class="mb-3">Somos una organización dedicada a la protección animal</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Message -->
+
+<section class="page-section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner text-center rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Compromiso total</span>
+
+            <span class="section-heading-lower">Garantizado</span>
+          </h2>
+
+          <p class="mb-0">
+            Aquí les damos la oportunidad de que lleven una vida digna, con comida, techo, espacios
+            para correr y jugar, y sobre todo, les damos amor: algo que tal vez nunca han tenido. Lo
+            que nosotros recibimos a cambio es un lengüetazo o una cola que se mueve llena de
+            felicidad, y en otros casos, una mirada de eterno agradecimiento. Te invitamos a que
+            conozcas los más de 300 perros que viven con nosotros, sus historias y sus sonrisas, te
+            invitamos a darles una nueva oportunidad a nuestros peluditos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
