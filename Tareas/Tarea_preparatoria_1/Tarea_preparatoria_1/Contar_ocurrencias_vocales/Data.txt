@@ -1,0 +1,7 @@
+Ingrese una palabra en minúsculas: Murcielago
+
+A se repite: 1 veces
+E se repite: 1 veces
+I se repite: 1 veces
+O se repite: 1 veces
+U se repite: 1 veces
